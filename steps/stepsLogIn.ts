@@ -14,7 +14,7 @@ When('I click on the {string} button', async ({page}, arg: string) => {
   // From: features\Login.feature:5:5
 
   // Create a locator.
-  const buttonSelector = page.getByRole('link', { name: arg });
+  const buttonSelector = page.getByRole('link', { name: arg, exact:true});
 
   // Click it.
   await buttonSelector.click();
