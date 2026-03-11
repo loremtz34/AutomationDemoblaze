@@ -18,6 +18,7 @@ When('I click on the {string} button', async ({page}, arg: string) => {
 
   // Click it.
   await buttonSelector.click();
+  await page.waitForTimeout(1000);
 });
 
 When('I fill on the {string} input with {string}', async ({page}, arg: string, arg1: string) => {
