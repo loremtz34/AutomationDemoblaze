@@ -1,0 +1,26 @@
+{
+  "name": "automationdemoblaze",
+  "version": "1.0.0",
+  "description": "This is an automation in demoblaze",
+  "homepage": "https://github.com/loremtz34/AutomationDemoblaze#readme",
+  "bugs": {
+    "url": "https://github.com/loremtz34/AutomationDemoblaze/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loremtz34/AutomationDemoblaze.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "bddgen && playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.4.0",
+    "playwright-bdd": "^8.4.2"
+  }
+}
