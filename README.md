@@ -2,23 +2,28 @@
 This project contains automated end-to-end tests using Playwright, Cucumber, and Gherkin in the Demoblaze web page.
 The goal of this project is to validate user flows using BDD (Behavior Driven Development) practices.
 
+## Environment
+- node v25.8.0
+- npm 11.11.0
+
 # Installation
 
 Clone the repository:
 
-git clone <https://github.com/loremtz34/AutomationDemoblaze.git>
+    git clone https://github.com/loremtz34/AutomationDemoblaze.git
+
+Install node
+   
+    https://nodejs.org/en/download/current
 
 Install dependencies:
 
-`npm install`
+    npm install
 
 Install Playwright browsers:
 
-`npx playwright install`
+    npx playwright install
 
-## Environment
-- node v25.8.0
-- npm 11.11.0
 
 ## Scripts
 - Test execution script: `npm run test`
